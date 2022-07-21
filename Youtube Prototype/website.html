@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Youtube</title>
+
+    <link rel="stylesheet" href="styles/thumbnail.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--HEADER-->
+    <header class="header">
+      <div class="headerLeft">
+        <img class="leftMenu" src="header/menu.svg" alt="Menu" />
+        <img class="ytLogo" src="header/ytlogo.svg" alt="YT Logo" />
+      </div>
+      <div class="headerMiddle">
+        <input class="searchBar" type="text" placeholder="Search" />
+        <button class="searchButton">
+          <img class="searchIcon" src="header/searchlogo.svg" alt="Search" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="micButton">
+          <img class="micIcon" src="header/miclogo.svg" alt="Mic" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="headerRight">
+        <div class="vidLogo">
+          <img class="vidIcon" src="header/vidlogo.svg" alt="Upload" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="appsLogo">
+          <img class="appsIcon" src="header/menu2.svg" alt="Apps" />
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifCounter">
+          <img class="bellIcon" src="header/notifbell.svg" alt="Notif" />
+          <div class="notifCount">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="profIcon" src="profile/profile.jpeg" alt="Prof" />
+      </div>
+    </header>
+
+    <!--SIDEBAR-->
+    <nav class="sideBar">
+      <div class="sideBarPanel">
+        <img src="sidebar/home.svg" alt="Home" />
+        <div>Home</div>
+      </div>
+      <div class="sideBarPanel">
+        <img src="sidebar/explore.svg" alt="Explore" />
+        <div>Explore</div>
+      </div>
+      <div class="sideBarPanel">
+        <img src="sidebar/subscriptions.svg" alt="Subscriptions" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sideBarPanel">
+        <img src="sidebar/originals.svg" alt="YTOriginals" />
+        <div>Originals</div>
+      </div>
+      <div class="sideBarPanel">
+        <img src="sidebar/ytmusic.svg" alt="YTMusic" />
+        <div>Youtube Music</div>
+      </div>
+      <div class="sideBarPanel">
+        <img src="sidebar/library.svg" alt="Library" />
+        <div>Library</div>
+      </div>
+    </nav>
+    <main>
+      <section class="videoGrid">
+        <!--1ST VIDEO PREVIEW-->
+        <div>
+          <div class="thumbnailRow">
+            <img class="thumbnail" src="thumbnail/tn1.webp" alt="men talking" />
+            <div class="timeStamp">14:20</div>
+          </div>
+          <div class="videoInfoGrid">
+            <div>
+              <img class="profilePic" src="profile/pp1.jpeg" alt="man" />
+            </div>
+            <div>
+              <p class="videoTitle">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="videoAuthor">Marques Brownlee</p>
+              <p class="videoStats">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!--2ND VIDEO PREVIEW-->
+        <div>
+          <div class="thumbnailRow">
+            <img class="thumbnail" src="thumbnail/tn2.webp" alt="men talking" />
+            <div class="timeStamp">8:22</div>
+          </div>
+          <div class="videoInfoGrid">
+            <div>
+              <img class="profilePic" src="profile/pp2.jpeg" alt="animated" />
+            </div>
+            <div>
+              <p class="videoTitle">Try Not To Laugh Challenge #9</p>
+              <p class="videoAuthor">Markiplier</p>
+              <p class="videoStats">19M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!--3RD VIDEO PREVIEW-->
+        <div>
+          <div class="thumbnailRow">
+            <img class="thumbnail" src="thumbnail/tn3.webp" alt="men talking" />
+            <div class="timeStamp">9:13</div>
+          </div>
+          <div class="videoInfoGrid">
+            <div>
+              <img class="profilePic" src="profile/pp3.jpeg" alt="man" />
+            </div>
+            <div>
+              <p class="videoTitle">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </p>
+              <p class="videoAuthor">SSSniperWolf</p>
+              <p class="videoStats">12M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!--4TH VIDEO PREVIEW-->
+        <div>
+          <div class="thumbnailRow">
+            <img class="thumbnail" src="thumbnail/tn4.webp" alt="men talking" />
+            <div class="timeStamp">22:09</div>
+          </div>
+          <div class="videoInfoGrid">
+            <div>
+              <img class="profilePic" src="profile/pp4.jpeg" alt="animated" />
+            </div>
+            <div>
+              <p class="videoTitle">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+              <p class="videoAuthor">Veritasium</p>
+              <p class="videoStats">18M views &#183; 4 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!--5TH VIDEO PREVIEW-->
+        <div>
+          <div class="thumbnailRow">
+            <img class="thumbnail" src="thumbnail/tn5.webp" alt="men talking" />
+            <div class="timeStamp">11:17</div>
+          </div>
+          <div class="videoInfoGrid">
+            <div>
+              <img class="profilePic" src="profile/pp5.jpeg" alt="man" />
+            </div>
+            <div>
+              <p class="videoTitle">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+              <p class="videoAuthor">CS Dojo</p>
+              <p class="videoStats">519K views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!--6TH VIDEO PREVIEW-->
+        <div>
+          <div class="thumbnailRow">
+            <img class="thumbnail" src="thumbnail/tn6.webp" alt="men talking" />
+            <div class="timeStamp">19:59</div>
+          </div>
+          <div class="videoInfoGrid">
+            <div>
+              <img class="profilePic" src="profile/pp6.jpeg" alt="animated" />
+            </div>
+            <div>
+              <p class="videoTitle">
+                Anything You Can Fit In The Circle I&apos;ll Pay For
+              </p>
+              <p class="videoAuthor">MrBeast</p>
+              <p class="videoStats">141M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--END-->
+  </body>
+</html>
